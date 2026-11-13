@@ -1,0 +1,40 @@
+{
+  "label": "Fresh release verification benchmark",
+  "seed": 42,
+  "generator_count": 100000,
+  "input_count": 100002,
+  "source": "data/sample/comprehensive_benchmark_20261113.jsonl",
+  "database": "tmp\\release_benchmark_fresh.sqlite",
+  "first_run": {
+    "run_id": "86df243c-2212-4db1-bc39-4ef9f80c5978",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 95291,
+    "rejected_count": 4710,
+    "duplicate_count": 1,
+    "duration_seconds": 184.045444,
+    "source_file": "release_benchmark_100k.jsonl",
+    "reconciliation_ok": true
+  },
+  "rerun": {
+    "run_id": "cbaa61d5-b914-4aa2-83ec-1e69ffb61b13",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 0,
+    "rejected_count": 4710,
+    "duplicate_count": 95292,
+    "duration_seconds": 27.356826,
+    "source_file": "release_benchmark_100k.jsonl",
+    "reconciliation_ok": true
+  },
+  "reconciliation_first": true,
+  "reconciliation_rerun": true,
+  "rerun_accepted_zero": true,
+  "source_sha256": "9f3dc8a53351b95a2edb5ebe664df9a28168843880b5d3e10202bca2fa9d412f",
+  "first_run_records_per_second": 543.35,
+  "rerun_records_per_second": 3655.47,
+  "database_integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "executed_source": "tmp/release_benchmark_100k.jsonl (temporary run input; removed after verification)",
+  "executed_database": "tmp/release_benchmark_fresh.sqlite (temporary benchmark database; removed after integrity verification)"
+}

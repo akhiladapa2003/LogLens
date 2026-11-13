@@ -1,0 +1,4 @@
+rejection_id,run_id,source_file,source_line,rejection_timestamp,category,rejection_code,rejection_reason,raw_payload
+3,9a645afd-4b0d-41aa-8bcf-eafcdcc30488,'=2+2.csv,2,2026-11-13T18:21:59.744703Z,VALIDATION,INVALID_TIMESTAMP,Invalid timestamp,"{""event_id"": ""formula-id"", ""timestamp"": ""not-a-timestamp"", ""level"": ""INFO"", ""service"": ""browser-test"", ""message"": ""formula test""}"
+2,27ff03cf-fd5d-4392-bdf7-1ba7ac485d82,malformed.jsonl,1,2026-11-13T18:19:56.677710Z,MALFORMED,MALFORMED_RECORD,Malformed JSON: Expecting property name enclosed in double quotes,{bad json}
+1,d4635227-726b-4a2c-8582-ab929b160b75,A.json,2,2026-11-13T18:15:39.979864Z,VALIDATION,MISSING_REQUIRED_FIELD,Missing required field(s): severity,"{""event_id"": ""browser-a-2"", ""timestamp"": ""2026-11-13T10:01:00Z"", ""service"": ""browser-test"", ""message"": ""=1+1 must be neutralized in CSV"", ""latency_ms"": 5}"

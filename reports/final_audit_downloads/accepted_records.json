@@ -1,0 +1,47 @@
+[
+  {
+    "event_id":"browser-a-1",
+    "event_fingerprint":"b94852108245e360027b3ce407445686fa547c2667161c722a2a3ac497c8eeaa",
+    "event_timestamp":"2026-11-13T10:00:00.000000Z",
+    "ingestion_timestamp":"2026-11-13T18:15:39.926333Z",
+    "severity":"INFO",
+    "raw_severity":"INFO",
+    "service_name":"browser-test",
+    "message":"accepted A row",
+    "latency_ms":8.0,
+    "source_file":"A.json",
+    "source_line":1,
+    "run_id":"d4635227-726b-4a2c-8582-ab929b160b75",
+    "raw_payload":"{\"event_id\": \"browser-a-1\", \"timestamp\": \"2026-11-13T10:00:00Z\", \"level\": \"INFO\", \"service\": \"browser-test\", \"message\": \"accepted A row\", \"latency_ms\": 8}"
+  },
+  {
+    "event_id":"browser-b-1",
+    "event_fingerprint":"55c1c9c6301cd6e78271a3ef758140f76f6cc3cf2ab2384c1e15490ca5d1ba92",
+    "event_timestamp":"2026-11-13T10:02:00.000000Z",
+    "ingestion_timestamp":"2026-11-13T18:16:40.242329Z",
+    "severity":"ERROR",
+    "raw_severity":"ERROR",
+    "service_name":"browser-test",
+    "message":"accepted B row",
+    "latency_ms":13.0,
+    "source_file":"B.csv",
+    "source_line":2,
+    "run_id":"d1da3173-40fb-48f5-b11d-12881f58be22",
+    "raw_payload":"{\"event_id\": \"browser-b-1\", \"timestamp\": \"2026-11-13T10:02:00Z\", \"level\": \"ERROR\", \"service\": \"browser-test\", \"message\": \"accepted B row\", \"latency_ms\": \"13\"}"
+  },
+  {
+    "event_id":"jsonl-1",
+    "event_fingerprint":"e69f89b731936d933e5fcaf1214b970a2c5b2922d668aaee2738f3ccdc0e5326",
+    "event_timestamp":"2026-11-13T10:03:00.000000Z",
+    "ingestion_timestamp":"2026-11-13T18:19:29.380724Z",
+    "severity":"WARNING",
+    "raw_severity":"WARNING",
+    "service_name":"browser-test",
+    "message":"JSONL row",
+    "latency_ms":null,
+    "source_file":"valid.jsonl",
+    "source_line":1,
+    "run_id":"e882ce62-cc00-4b34-b724-374bd3f4563a",
+    "raw_payload":"{\"event_id\": \"jsonl-1\", \"timestamp\": \"2026-11-13T10:03:00Z\", \"level\": \"WARNING\", \"service\": \"browser-test\", \"message\": \"JSONL row\"}"
+  }
+]

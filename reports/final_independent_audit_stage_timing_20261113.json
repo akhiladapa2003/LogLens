@@ -1,0 +1,26 @@
+{
+  "parse_seconds": 0.36766910017468035,
+  "canonicalize_seconds": 1.8706880232784897,
+  "sqlite_execute_seconds": 118.97575250035152,
+  "sqlite_executemany_seconds": 1.9061220025178045,
+  "sqlite_commit_seconds": 0.06756799994036555,
+  "sqlite_rollback_seconds": 0.0,
+  "sqlite_calls": {
+    "execute": 210,
+    "executemany": 303
+  },
+  "total_pipeline_wall_seconds": 124.97885439987294,
+  "unaccounted_wall_seconds": 1.7910547736100852,
+  "run_result": {
+    "run_id": "574addc6-3ecd-4f07-8042-f059a9c208c0",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 95291,
+    "rejected_count": 4710,
+    "duplicate_count": 1,
+    "duration_seconds": 124.902177,
+    "source_file": "logs_100000.jsonl",
+    "reconciliation_ok": true
+  },
+  "timing_note": "execute duration includes cursor.execute calls and SQLite setup/query calls; for SELECTs, cursor iteration/fetch time is outside the execute wrapper and falls into unaccounted wall time. This is a stage diagnostic, not an additive decomposition of every SQLite cost."
+}

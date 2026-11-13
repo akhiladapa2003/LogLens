@@ -1,0 +1,47 @@
+{
+  "label": "Final post-fix benchmark, fresh database",
+  "source": "data\\sample\\comprehensive_benchmark_20261113.jsonl",
+  "seed": 42,
+  "database": "data\\final_submission_benchmark_20261113.db",
+  "generated_input_records": 100002,
+  "first_run": {
+    "run_id": "410cf959-a069-4969-b66e-9f0bc07ecc59",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 95291,
+    "rejected_count": 4710,
+    "duplicate_count": 1,
+    "duration_seconds": 259.794217,
+    "source_file": "comprehensive_benchmark_20261113.jsonl",
+    "reconciliation_ok": true
+  },
+  "first_run_records_per_second": 384.93,
+  "first_run_reconciliation": {
+    "input": 100002,
+    "sum": 100002,
+    "passed": true
+  },
+  "persisted_accepted_after_rerun": 95291,
+  "cumulative_invalid_rejection_rows_after_rerun": 9420,
+  "cumulative_duplicate_rejection_rows_after_rerun": 95293,
+  "rerun": {
+    "run_id": "2f31eae2-d2e4-47ea-9e0a-cbb36d7240de",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 0,
+    "rejected_count": 4710,
+    "duplicate_count": 95292,
+    "duration_seconds": 36.488258,
+    "source_file": "comprehensive_benchmark_20261113.jsonl",
+    "reconciliation_ok": true
+  },
+  "rerun_records_per_second": 2740.66,
+  "rerun_reconciliation": {
+    "input": 100002,
+    "sum": 100002,
+    "passed": true
+  },
+  "rerun_accepted_zero": true,
+  "database_integrity_check": "ok",
+  "foreign_key_violations": 0
+}

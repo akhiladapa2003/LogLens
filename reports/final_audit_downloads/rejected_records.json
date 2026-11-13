@@ -1,0 +1,35 @@
+[
+  {
+    "rejection_id":3,
+    "run_id":"9a645afd-4b0d-41aa-8bcf-eafcdcc30488",
+    "source_file":"=2+2.csv",
+    "source_line":2,
+    "rejection_timestamp":"2026-11-13T18:21:59.744703Z",
+    "category":"VALIDATION",
+    "rejection_code":"INVALID_TIMESTAMP",
+    "rejection_reason":"Invalid timestamp",
+    "raw_payload":"{\"event_id\": \"formula-id\", \"timestamp\": \"not-a-timestamp\", \"level\": \"INFO\", \"service\": \"browser-test\", \"message\": \"formula test\"}"
+  },
+  {
+    "rejection_id":2,
+    "run_id":"27ff03cf-fd5d-4392-bdf7-1ba7ac485d82",
+    "source_file":"malformed.jsonl",
+    "source_line":1,
+    "rejection_timestamp":"2026-11-13T18:19:56.677710Z",
+    "category":"MALFORMED",
+    "rejection_code":"MALFORMED_RECORD",
+    "rejection_reason":"Malformed JSON: Expecting property name enclosed in double quotes",
+    "raw_payload":"{bad json}"
+  },
+  {
+    "rejection_id":1,
+    "run_id":"d4635227-726b-4a2c-8582-ab929b160b75",
+    "source_file":"A.json",
+    "source_line":2,
+    "rejection_timestamp":"2026-11-13T18:15:39.979864Z",
+    "category":"VALIDATION",
+    "rejection_code":"MISSING_REQUIRED_FIELD",
+    "rejection_reason":"Missing required field(s): severity",
+    "raw_payload":"{\"event_id\": \"browser-a-2\", \"timestamp\": \"2026-11-13T10:01:00Z\", \"service\": \"browser-test\", \"message\": \"=1+1 must be neutralized in CSV\", \"latency_ms\": 5}"
+  }
+]

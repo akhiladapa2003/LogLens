@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-14",
+  "seed": 20261114,
+  "generated_base_records": 100000,
+  "input_records_including_injected_duplicate_and_malformed": 100002,
+  "expected_generator_counts": {
+    "INVALID": 4709,
+    "ACCEPTED": 95291,
+    "DUPLICATE": 1,
+    "MALFORMED": 1
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+  "db_path": "temporary fresh database (not project production DB)",
+  "first_run": {
+    "run_id": "5af7b811-cf16-4678-bda1-50c01f1731f0",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 95291,
+    "rejected_count": 4710,
+    "duplicate_count": 1,
+    "duration_seconds": 123.903352,
+    "source_file": "benchmark_20261114.jsonl",
+    "reconciliation_ok": true
+  },
+  "first_run_wall_seconds": 124.094878,
+  "first_run_records_per_second": 807.097,
+  "rerun": {
+    "run_id": "6aa18822-5a34-4705-9a30-00345e598700",
+    "status": "PARTIAL_SUCCESS",
+    "input_count": 100002,
+    "accepted_count": 0,
+    "rejected_count": 4710,
+    "duplicate_count": 95292,
+    "duration_seconds": 5.405216,
+    "source_file": "benchmark_20261114.jsonl",
+    "reconciliation_ok": true
+  },
+  "rerun_wall_seconds": 5.519656,
+  "rerun_records_per_second": 18501.018,
+  "reconciliation_first": true,
+  "reconciliation_rerun": true,
+  "rerun_accepted_zero": true,
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": [],
+  "table_counts": {
+    "processed_logs": 95291,
+    "rejected_records": 104713,
+    "processed_files": 1
+  },
+  "run_rows": [
+    {
+      "run_id": "5af7b811-cf16-4678-bda1-50c01f1731f0",
+      "input_count": 100002,
+      "accepted_count": 95291,
+      "rejected_count": 4710,
+      "duplicate_count": 1,
+      "status": "PARTIAL_SUCCESS"
+    },
+    {
+      "run_id": "6aa18822-5a34-4705-9a30-00345e598700",
+      "input_count": 100002,
+      "accepted_count": 0,
+      "rejected_count": 4710,
+      "duplicate_count": 95292,
+      "status": "PARTIAL_SUCCESS"
+    }
+  ]
+}

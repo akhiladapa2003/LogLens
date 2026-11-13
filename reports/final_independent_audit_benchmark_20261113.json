@@ -1,0 +1,45 @@
+{
+  "generated_base_records": 100000,
+  "seed": 20261113,
+  "physical_input_records": 100002,
+  "sha256": "2a95aac70233377049e7a3190a2657863ec14d0f344fe56ef6052016c771b9d9",
+  "parse_only_seconds": 0.41033819993026555,
+  "runs": [
+    {
+      "run": 1,
+      "wall_seconds": 123.09622880001552,
+      "run_id": "c32041f3-6c13-4a86-bc1c-f603f4b85155",
+      "status": "PARTIAL_SUCCESS",
+      "input_count": 100002,
+      "accepted_count": 95291,
+      "rejected_count": 4710,
+      "duplicate_count": 1,
+      "duration_seconds": 122.946587,
+      "source_file": "logs_100000.jsonl",
+      "reconciliation_ok": true,
+      "records_per_second": 812.39,
+      "reconciliation_equation": "100002 = 95291 + 4710 + 1"
+    },
+    {
+      "run": 2,
+      "wall_seconds": 5.681721899891272,
+      "run_id": "8d3ec3f5-3730-4d64-925b-5bd4bcaea24e",
+      "status": "PARTIAL_SUCCESS",
+      "input_count": 100002,
+      "accepted_count": 0,
+      "rejected_count": 4710,
+      "duplicate_count": 95292,
+      "duration_seconds": 5.607481,
+      "source_file": "logs_100000.jsonl",
+      "reconciliation_ok": true,
+      "records_per_second": 17600.65,
+      "reconciliation_equation": "100002 = 0 + 4710 + 95292"
+    }
+  ],
+  "accepted_rows_total": 95291,
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "reconciliation": true,
+  "second_run_new_accepted": 0,
+  "timing_method": "Generator, parser-only parse_file call, then full run_pipeline wall-clock and its internally measured duration per execution; these phases overlap conceptually but parser-only timing is a separate diagnostic and not subtracted from pipeline."
+}
