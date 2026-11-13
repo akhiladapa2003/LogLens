@@ -1,0 +1,623 @@
+{
+  "seed": 42,
+  "source_file": "sample.jsonl",
+  "input_count": 122,
+  "counts": {
+    "INVALID": 5,
+    "ACCEPTED": 115,
+    "DUPLICATE": 1,
+    "MALFORMED": 1
+  },
+  "records": [
+    {
+      "source_line": 1,
+      "event_id": "evt-0000000",
+      "expected_category": "INVALID"
+    },
+    {
+      "source_line": 2,
+      "event_id": "evt-0000001",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 3,
+      "event_id": "evt-0000002",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 4,
+      "event_id": "evt-0000003",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 5,
+      "event_id": "evt-0000004",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 6,
+      "event_id": "evt-0000005",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 7,
+      "event_id": "evt-0000006",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 8,
+      "event_id": "evt-0000007",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 9,
+      "event_id": "evt-0000008",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 10,
+      "event_id": "evt-0000009",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 11,
+      "event_id": "evt-0000010",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 12,
+      "event_id": "evt-0000010",
+      "expected_category": "DUPLICATE"
+    },
+    {
+      "source_line": 13,
+      "event_id": "evt-0000011",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 14,
+      "event_id": "evt-0000012",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 15,
+      "event_id": "evt-0000013",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 16,
+      "event_id": "evt-0000014",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 17,
+      "event_id": "evt-0000015",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 18,
+      "event_id": "evt-0000016",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 19,
+      "event_id": "evt-0000017",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 20,
+      "event_id": "evt-0000018",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 21,
+      "event_id": "evt-0000019",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 22,
+      "event_id": "evt-0000020",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 23,
+      "event_id": "evt-0000021",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 24,
+      "event_id": "evt-0000022",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 25,
+      "event_id": "evt-0000023",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 26,
+      "event_id": "evt-0000024",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 27,
+      "event_id": "evt-0000025",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 28,
+      "event_id": "evt-0000026",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 29,
+      "event_id": "evt-0000027",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 30,
+      "event_id": "evt-0000028",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 31,
+      "event_id": "evt-0000029",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 32,
+      "event_id": "evt-0000030",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 33,
+      "event_id": "evt-0000031",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 34,
+      "event_id": "evt-0000032",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 35,
+      "event_id": "evt-0000033",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 36,
+      "event_id": "evt-0000034",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 37,
+      "event_id": "evt-0000035",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 38,
+      "event_id": "evt-0000036",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 39,
+      "event_id": "evt-0000037",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 40,
+      "event_id": "evt-0000038",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 41,
+      "event_id": "evt-0000039",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 42,
+      "event_id": "evt-0000040",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 43,
+      "event_id": "evt-0000041",
+      "expected_category": "INVALID"
+    },
+    {
+      "source_line": 44,
+      "event_id": "evt-0000042",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 45,
+      "event_id": "evt-0000043",
+      "expected_category": "INVALID"
+    },
+    {
+      "source_line": 46,
+      "event_id": "evt-0000044",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 47,
+      "event_id": "evt-0000045",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 48,
+      "event_id": "evt-0000046",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 49,
+      "event_id": "evt-0000047",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 50,
+      "event_id": "evt-0000048",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 51,
+      "event_id": "evt-0000049",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 52,
+      "event_id": "evt-0000050",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 53,
+      "event_id": "evt-0000051",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 54,
+      "event_id": "evt-0000052",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 55,
+      "event_id": "evt-0000053",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 56,
+      "event_id": "evt-0000054",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 57,
+      "event_id": "evt-0000055",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 58,
+      "event_id": "evt-0000056",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 59,
+      "event_id": "evt-0000057",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 60,
+      "event_id": "evt-0000058",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 61,
+      "event_id": "evt-0000059",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 62,
+      "event_id": "evt-0000060",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 63,
+      "event_id": "evt-0000061",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 64,
+      "event_id": "evt-0000062",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 65,
+      "event_id": "evt-0000063",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 66,
+      "event_id": "evt-0000064",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 67,
+      "event_id": "evt-0000065",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 68,
+      "event_id": "evt-0000066",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 69,
+      "event_id": "evt-0000067",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 70,
+      "event_id": "evt-0000068",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 71,
+      "event_id": "evt-0000069",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 72,
+      "event_id": "evt-0000070",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 73,
+      "event_id": "evt-0000071",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 74,
+      "event_id": "evt-0000072",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 75,
+      "event_id": "evt-0000073",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 76,
+      "event_id": "evt-0000074",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 77,
+      "event_id": "evt-0000075",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 78,
+      "event_id": "evt-0000076",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 79,
+      "event_id": "evt-0000077",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 80,
+      "event_id": "evt-0000078",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 81,
+      "event_id": "evt-0000079",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 82,
+      "event_id": "evt-0000080",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 83,
+      "event_id": "evt-0000081",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 84,
+      "event_id": "evt-0000082",
+      "expected_category": "INVALID"
+    },
+    {
+      "source_line": 85,
+      "event_id": "evt-0000083",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 86,
+      "event_id": "evt-0000084",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 87,
+      "event_id": "evt-0000085",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 88,
+      "event_id": "evt-0000086",
+      "expected_category": "INVALID"
+    },
+    {
+      "source_line": 89,
+      "event_id": "evt-0000087",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 90,
+      "event_id": "evt-0000088",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 91,
+      "event_id": "evt-0000089",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 92,
+      "event_id": "evt-0000090",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 93,
+      "event_id": "evt-0000091",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 94,
+      "event_id": "evt-0000092",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 95,
+      "event_id": "evt-0000093",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 96,
+      "event_id": "evt-0000094",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 97,
+      "event_id": "evt-0000095",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 98,
+      "event_id": "evt-0000096",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 99,
+      "event_id": "evt-0000097",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 100,
+      "event_id": "evt-0000098",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 101,
+      "event_id": "evt-0000099",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 102,
+      "event_id": "evt-0000100",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 103,
+      "event_id": "evt-0000101",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 104,
+      "event_id": "evt-0000102",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 105,
+      "event_id": "evt-0000103",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 106,
+      "event_id": "evt-0000104",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 107,
+      "event_id": "evt-0000105",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 108,
+      "event_id": "evt-0000106",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 109,
+      "event_id": "evt-0000107",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 110,
+      "event_id": "evt-0000108",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 111,
+      "event_id": "evt-0000109",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 112,
+      "event_id": "evt-0000110",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 113,
+      "event_id": "evt-0000111",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 114,
+      "event_id": "evt-0000112",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 115,
+      "event_id": "evt-0000113",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 116,
+      "event_id": "evt-0000114",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 117,
+      "event_id": "evt-0000115",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 118,
+      "event_id": "evt-0000116",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 119,
+      "event_id": "evt-0000117",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 120,
+      "event_id": "evt-0000118",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 121,
+      "event_id": "evt-0000119",
+      "expected_category": "ACCEPTED"
+    },
+    {
+      "source_line": 122,
+      "event_id": null,
+      "expected_category": "MALFORMED"
+    }
+  ]
+}
